@@ -1,0 +1,3 @@
+<app-child [name]="name" (classEvent)="recivedClass($event)" ></app-child>
+<input type="text" [(ngModel)]="name">
+<div [ngClass]="class" >{{name}}</div>
